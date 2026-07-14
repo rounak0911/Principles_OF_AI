@@ -1,787 +1,382 @@
 ---
 course_code: "B25EA0302"
 title: "Principles of Artificial Intelligence"
-programs: [AIDS, AIML]
+programs:
+  - AIDS
+  - AIML
 semester: III
-category: HC
+category: "HC"
 ltpc: "3-0-0-3"
 contact_hours_per_week: 3
 cie: 50
 see: 50
 total_marks: 100
-aicte_category: PCC
-level: Undergraduate
-status: completed
-course design : Rounak kumar
+aicte_category: "PCC"
+level: "Undergraduate"
+status: "Completed"
+course_designer: "Rounak Kumar"
+---
 
 # Course File — Principles of Artificial Intelligence
 
-## 0. Course Identification
-| Field | Entry |
-|---|---|
-| Programme | B.Tech – AIDS / AIML |
-| Course Code | B25EA0302 |
-| Course Title | Principles of Artificial Intelligence |
-| Category | HC |
-| L-T-P-C | 3-0-0-3 |
-| Semester | III |
-
 ## 1. Course Description
-This course introduces AI foundations including intelligent agents, search, knowledge representation, reasoning, planning, machine learning basics, uncertainty handling, and ethical AI through activity-based learning.
+This course introduces intelligent agents, search, knowledge representation, reasoning, planning, machine learning fundamentals, ethics and AI applications through activity-based learning.
 
-## 2. Course Objectives
-- Understand AI fundamentals and intelligent systems.
-- Apply search and reasoning techniques.
-- Introduce machine learning concepts.
-- Promote ethical and responsible AI.
+## 2. Activity-Based Learning Plan (45 Activities)
+|S.No|Week|Unit|Topic|Learning Outcome|Merrill Phase|Teaching Method|Student Activity|ICT Tool|Assessment|Bloom|CO|
+|---:|---:|:---:|---|---|---|---|---|---|---|:---:|:---:|
+|1|1|I|Introduction to AI|Understand introduction to ai|Demonstration|Case Study|Worksheet|Colab|Worksheet|L2|CO1|
+|2|1|I|History of AI|Understand history of ai|Application|Discussion|Coding|Python|Coding|L2|CO1|
+|3|1|I|AI Applications|Understand ai applications|Integration|Problem Solving|Presentation|NPTEL|Observation|L2|CO1|
+|4|2|I|Intelligent Agents|Understand intelligent agents|Activation|Demo|Simulation|YouTube|Presentation|L2|CO1|
+|5|2|I|PEAS Framework|Understand peas framework|Demonstration|Flipped Class|Think-Pair-Share|Jupyter|Viva|L2|CO1|
+|6|2|I|Environment Types|Understand environment types|Application|Interactive Lecture|Brainstorming|PPT|Quiz|L2|CO1|
+|7|3|I|Problem Formulation|Understand problem formulation|Integration|Case Study|Worksheet|Colab|Worksheet|L2|CO1|
+|8|3|I|State Space|Understand state space|Activation|Discussion|Coding|Python|Coding|L2|CO1|
+|9|3|I|Breadth First Search|Understand breadth first search|Demonstration|Problem Solving|Presentation|NPTEL|Observation|L3|CO2|
+|10|4|I|Depth First Search|Understand depth first search|Application|Demo|Simulation|YouTube|Presentation|L3|CO2|
+|11|4|I|Uniform Cost Search|Understand uniform cost search|Integration|Flipped Class|Think-Pair-Share|Jupyter|Viva|L3|CO2|
+|12|4|I|Iterative Deepening|Understand iterative deepening|Activation|Interactive Lecture|Brainstorming|PPT|Quiz|L3|CO2|
+|13|5|II|Greedy Best First Search|Understand greedy best first search|Demonstration|Case Study|Worksheet|Colab|Worksheet|L3|CO2|
+|14|5|II|A* Search|Understand a* search|Application|Discussion|Coding|Python|Coding|L3|CO2|
+|15|5|II|Heuristics|Understand heuristics|Integration|Problem Solving|Presentation|NPTEL|Observation|L3|CO2|
+|16|6|II|Game Trees|Understand game trees|Activation|Demo|Simulation|YouTube|Presentation|L3|CO2|
+|17|6|II|Minimax|Understand minimax|Demonstration|Flipped Class|Think-Pair-Share|Jupyter|Viva|L3|CO2|
+|18|6|II|Alpha-Beta Pruning|Understand alpha-beta pruning|Application|Interactive Lecture|Brainstorming|PPT|Quiz|L3|CO2|
+|19|7|II|Constraint Satisfaction|Understand constraint satisfaction|Integration|Case Study|Worksheet|Colab|Worksheet|L3|CO2|
+|20|7|II|Backtracking|Understand backtracking|Activation|Discussion|Coding|Python|Coding|L3|CO2|
+|21|7|III|Knowledge Representation|Understand knowledge representation|Demonstration|Problem Solving|Presentation|NPTEL|Observation|L3|CO3|
+|22|8|III|Semantic Networks|Understand semantic networks|Application|Demo|Simulation|YouTube|Presentation|L3|CO3|
+|23|8|III|Frames|Understand frames|Integration|Flipped Class|Think-Pair-Share|Jupyter|Viva|L3|CO3|
+|24|8|III|Ontologies|Understand ontologies|Activation|Interactive Lecture|Brainstorming|PPT|Quiz|L3|CO3|
+|25|9|III|Propositional Logic|Understand propositional logic|Demonstration|Case Study|Worksheet|Colab|Worksheet|L3|CO3|
+|26|9|III|First Order Logic|Understand first order logic|Application|Discussion|Coding|Python|Coding|L3|CO3|
+|27|9|III|Forward Chaining|Understand forward chaining|Integration|Problem Solving|Presentation|NPTEL|Observation|L3|CO3|
+|28|10|III|Backward Chaining|Understand backward chaining|Activation|Demo|Simulation|YouTube|Presentation|L3|CO3|
+|29|10|III|Resolution|Understand resolution|Demonstration|Flipped Class|Think-Pair-Share|Jupyter|Viva|L3|CO3|
+|30|10|III|Planning|Understand planning|Application|Interactive Lecture|Brainstorming|PPT|Quiz|L3|CO3|
+|31|11|III|STRIPS|Understand strips|Integration|Case Study|Worksheet|Colab|Worksheet|L3|CO3|
+|32|11|III|Probability|Understand probability|Activation|Discussion|Coding|Python|Coding|L3|CO3|
+|33|11|III|Bayesian Networks|Understand bayesian networks|Demonstration|Problem Solving|Presentation|NPTEL|Observation|L3|CO3|
+|34|12|III|Naive Bayes|Understand naive bayes|Application|Demo|Simulation|YouTube|Presentation|L3|CO3|
+|35|12|III|Decision Making|Understand decision making|Integration|Flipped Class|Think-Pair-Share|Jupyter|Viva|L3|CO3|
+|36|12|IV|Machine Learning Basics|Understand machine learning basics|Activation|Interactive Lecture|Brainstorming|PPT|Quiz|L4|CO4/CO5|
+|37|13|IV|Supervised Learning|Understand supervised learning|Demonstration|Case Study|Worksheet|Colab|Worksheet|L4|CO4/CO5|
+|38|13|IV|Unsupervised Learning|Understand unsupervised learning|Application|Discussion|Coding|Python|Coding|L4|CO4/CO5|
+|39|13|IV|Reinforcement Learning|Understand reinforcement learning|Integration|Problem Solving|Presentation|NPTEL|Observation|L4|CO4/CO5|
+|40|14|IV|Neural Networks|Understand neural networks|Activation|Demo|Simulation|YouTube|Presentation|L4|CO4/CO5|
+|41|14|IV|Deep Learning|Understand deep learning|Demonstration|Flipped Class|Think-Pair-Share|Jupyter|Viva|L4|CO4/CO5|
+|42|14|IV|Explainable AI|Understand explainable ai|Application|Interactive Lecture|Brainstorming|PPT|Quiz|L4|CO4/CO5|
+|43|15|IV|AI Ethics|Understand ai ethics|Integration|Case Study|Worksheet|Colab|Worksheet|L4|CO4/CO5|
+|44|15|IV|Mini Project|Understand mini project|Activation|Discussion|Coding|Python|Coding|L4|CO4/CO5|
+|45|15|IV|Project Presentation|Understand project presentation|Demonstration|Problem Solving|Presentation|NPTEL|Observation|L4|CO4/CO5|
 
-## 3. Course Outcomes
-| CO | Outcome |
-|---|---|
-|CO1|Explain AI fundamentals and intelligent agents.|
-|CO2|Apply search algorithms to solve AI problems.|
-|CO3|Represent knowledge using logic and reasoning.|
-|CO4|Explain machine learning fundamentals.|
-|CO5|Analyze AI applications and ethical issues.|
+---
+# 3. Pedagogy
 
-# 4. Activity-Based Learning Plan (45 Activities)
+The course adopts a **student-centric, activity-based, and outcome-oriented teaching methodology** that integrates theoretical concepts with practical AI problem solving. A combination of traditional lectures, collaborative learning, demonstrations, coding sessions, and real-world case studies is used to enhance conceptual understanding, analytical thinking, and programming skills.
 
+### Teaching Strategies
 
-## Activity 1: Introduction to AI
-
-**Week:** 1 &nbsp;&nbsp; **Unit:** 1
-
-**Objective:** Learn the key concepts of **Introduction to AI** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO1
+- Interactive classroom lectures supported by multimedia presentations.
+- Activity-based learning through 45 structured classroom activities.
+- Problem-Based Learning (PBL) using real-world AI scenarios.
+- Think–Pair–Share discussions for conceptual clarity.
+- Case study analysis of AI applications in healthcare, finance, robotics, cybersecurity, and smart cities.
+- Live coding demonstrations using Python.
+- Collaborative learning through group discussions and presentations.
+- Mini-projects based on AI applications.
+- Quiz-based formative assessment.
+- Flipped classroom sessions using NPTEL and online resources.
 
 ---
 
-## Activity 2: History of AI
+# 4. Teaching-Learning Methods
 
-**Week:** 1 &nbsp;&nbsp; **Unit:** 1
-
-**Objective:** Learn the key concepts of **History of AI** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO1
-
----
-
-## Activity 3: AI Applications
-
-**Week:** 1 &nbsp;&nbsp; **Unit:** 1
-
-**Objective:** Learn the key concepts of **AI Applications** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO1
+| Method | Purpose |
+|---------|---------|
+| Interactive Lecture | Introduce new AI concepts and theories |
+| Demonstration | Explain AI algorithms using examples and visualizations |
+| Problem-Based Learning | Develop analytical and reasoning skills |
+| Case Study | Relate AI concepts with industrial applications |
+| Group Discussion | Encourage collaborative learning |
+| Think–Pair–Share | Promote peer learning and critical thinking |
+| Coding Demonstration | Visualize AI algorithms using Python |
+| Activity-Based Learning | Reinforce conceptual understanding |
+| Seminar Presentation | Improve communication and presentation skills |
+| Mini Project | Apply AI concepts to real-world problems |
 
 ---
 
-## Activity 4: Intelligent Agents
+# 5. Assessment Scheme
 
-**Week:** 2 &nbsp;&nbsp; **Unit:** 1
+The course follows an Outcome-Based Education (OBE) assessment strategy that evaluates students through continuous assessment and end-semester examination.
 
-**Objective:** Learn the key concepts of **Intelligent Agents** and relate them to practical AI problems.
+## Continuous Internal Evaluation (CIE) – 50 Marks
 
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
+| Component | Marks |
+|------------|------:|
+| Internal Assessment Test – I | 15 |
+| Internal Assessment Test – II | 15 |
+| Assignment / Activity | 10 |
+| Quiz / Mini Project / Seminar | 10 |
+| **Total** | **50** |
 
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
+## Semester End Examination (SEE) – 50 Marks
 
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
+| Component | Marks |
+|------------|------:|
+| End Semester Theory Examination | 50 |
 
-**CO Mapping:** CO1
+### Assessment Pattern
 
----
-
-## Activity 5: PEAS Framework
-
-**Week:** 2 &nbsp;&nbsp; **Unit:** 1
-
-**Objective:** Learn the key concepts of **PEAS Framework** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO1
-
----
-
-## Activity 6: Environment Types
-
-**Week:** 2 &nbsp;&nbsp; **Unit:** 1
-
-**Objective:** Learn the key concepts of **Environment Types** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO1
+- Conceptual understanding
+- Problem-solving ability
+- Algorithm analysis
+- Programming skills
+- Case study analysis
+- AI application development
+- Ethical reasoning
 
 ---
 
-## Activity 7: Problem Formulation
+# 6. Assignments
 
-**Week:** 3 &nbsp;&nbsp; **Unit:** 1
+## Assignment 1 (Units I & II)
 
-**Objective:** Learn the key concepts of **Problem Formulation** and relate them to practical AI problems.
+Students will solve AI search problems using uninformed and informed search algorithms.
 
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
+**Deliverables**
 
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO1
-
----
-
-## Activity 8: State Space
-
-**Week:** 3 &nbsp;&nbsp; **Unit:** 1
-
-**Objective:** Learn the key concepts of **State Space** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO1
+- Problem formulation
+- State-space representation
+- Algorithm implementation
+- Complexity analysis
+- Result interpretation
 
 ---
 
-## Activity 9: Breadth First Search
+## Assignment 2 (Units III & IV)
 
-**Week:** 3 &nbsp;&nbsp; **Unit:** 1
+Students will study an AI application and analyze its knowledge representation, reasoning mechanism, machine learning approach, and ethical implications.
 
-**Objective:** Learn the key concepts of **Breadth First Search** and relate them to practical AI problems.
+**Deliverables**
 
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO2
+- Literature review
+- AI model description
+- Advantages and limitations
+- Ethical considerations
+- Future scope
 
 ---
 
-## Activity 10: Depth First Search
+# 7. Mini Project
 
-**Week:** 4 &nbsp;&nbsp; **Unit:** 1
+Students shall develop a simple AI-based application using Python.
 
-**Objective:** Learn the key concepts of **Depth First Search** and relate them to practical AI problems.
+### Suggested Topics
 
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
+- Tic-Tac-Toe AI
+- Chatbot
+- Disease Prediction
+- Spam Email Detection
+- Movie Recommendation System
+- Route Finding
+- Student Performance Prediction
+- Face Detection
+- AI-based Attendance System
+- Smart Traffic Signal Simulation
 
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
+### Evaluation Rubric
 
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO2
-
----
-
-## Activity 11: Uniform Cost Search
-
-**Week:** 4 &nbsp;&nbsp; **Unit:** 1
-
-**Objective:** Learn the key concepts of **Uniform Cost Search** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO2
+| Criteria | Weight |
+|-----------|-------:|
+| Problem Identification | 10% |
+| Design Approach | 20% |
+| Implementation | 30% |
+| Innovation | 20% |
+| Presentation & Documentation | 20% |
 
 ---
 
-## Activity 12: Iterative Deepening
+# 8. ICT Support
 
-**Week:** 4 &nbsp;&nbsp; **Unit:** 2
+The course extensively utilizes ICT tools to improve visualization, programming skills, and self-learning.
 
-**Objective:** Learn the key concepts of **Iterative Deepening** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO2
-
----
-
-## Activity 13: Greedy Best First Search
-
-**Week:** 5 &nbsp;&nbsp; **Unit:** 2
-
-**Objective:** Learn the key concepts of **Greedy Best First Search** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO2
+| Tool | Purpose |
+|------|---------|
+| Python | AI algorithm implementation |
+| Google Colab | Cloud-based programming environment |
+| Jupyter Notebook | Interactive coding |
+| Visual Studio Code | Python development |
+| scikit-learn | Machine Learning implementation |
+| NumPy | Numerical computation |
+| Pandas | Data preprocessing |
+| Matplotlib | Data visualization |
+| NetworkX | Graph search visualization |
+| NLTK | NLP demonstrations |
+| ChatGPT (Guided) | Concept clarification and code explanation |
+| GitHub | Version control and project collaboration |
+| NPTEL | Supplementary learning |
+| Kaggle | Datasets and AI practice |
 
 ---
 
-## Activity 14: A* Search
+# 9. Learning Resources
 
-**Week:** 5 &nbsp;&nbsp; **Unit:** 2
+Students are encouraged to use the following online learning platforms:
 
-**Objective:** Learn the key concepts of **A* Search** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO2
-
----
-
-## Activity 15: Heuristic Functions
-
-**Week:** 5 &nbsp;&nbsp; **Unit:** 2
-
-**Objective:** Learn the key concepts of **Heuristic Functions** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO2
+- NPTEL – Artificial Intelligence
+- SWAYAM
+- Coursera
+- edX
+- Google AI
+- Microsoft Learn AI
+- IBM SkillsBuild
+- Kaggle Learn
+- OpenAI Documentation
 
 ---
 
-## Activity 16: Game Trees
+# 10. Textbooks
 
-**Week:** 6 &nbsp;&nbsp; **Unit:** 2
+## Textbook 1
 
-**Objective:** Learn the key concepts of **Game Trees** and relate them to practical AI problems.
+**Stuart Russell and Peter Norvig**
 
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
+*Artificial Intelligence: A Modern Approach*
 
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
+4th Edition, Pearson Education, 2021.
 
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
+This is the primary textbook covering intelligent agents, search algorithms, knowledge representation, reasoning, planning, uncertainty, machine learning, and modern AI.
 
-**CO Mapping:** CO2
+### Textbook 2
 
----
+**Elaine Rich, Kevin Knight and Shivashankar B. Nair**
 
-## Activity 17: Minimax
+*Artificial Intelligence*
 
-**Week:** 6 &nbsp;&nbsp; **Unit:** 2
+3rd Edition, McGraw-Hill Education.
 
-**Objective:** Learn the key concepts of **Minimax** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO2
+Provides strong foundations of AI concepts with practical examples.
 
 ---
 
-## Activity 18: Alpha-Beta Pruning
+# 11. Reference Books
 
-**Week:** 6 &nbsp;&nbsp; **Unit:** 2
+### Reference 1
 
-**Objective:** Learn the key concepts of **Alpha-Beta Pruning** and relate them to practical AI problems.
+Nils J. Nilsson
 
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
+*Artificial Intelligence: A New Synthesis*
 
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
+Morgan Kaufmann Publishers.
 
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
+Introduces AI concepts with emphasis on intelligent reasoning.
 
-**CO Mapping:** CO2
+### Reference 2
 
----
+Dan W. Patterson
 
-## Activity 19: Constraint Satisfaction
+*Introduction to Artificial Intelligence and Expert Systems*
 
-**Week:** 7 &nbsp;&nbsp; **Unit:** 2
+Prentice Hall.
 
-**Objective:** Learn the key concepts of **Constraint Satisfaction** and relate them to practical AI problems.
+Explains expert systems and reasoning mechanisms.
 
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
+### Reference 3
 
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
+George F. Luger
 
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
+*Artificial Intelligence: Structures and Strategies for Complex Problem Solving*
 
-**CO Mapping:** CO2
+Pearson Education.
 
----
+Focuses on search, planning, knowledge representation, and machine learning.
 
-## Activity 20: Backtracking
+### Reference 4
 
-**Week:** 7 &nbsp;&nbsp; **Unit:** 2
+David Poole and Alan Mackworth
 
-**Objective:** Learn the key concepts of **Backtracking** and relate them to practical AI problems.
+*Artificial Intelligence: Foundations of Computational Agents*
 
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
+Cambridge University Press.
 
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO2
+Provides mathematical foundations of intelligent agents.
 
 ---
 
-## Activity 21: Knowledge Representation
+# 12. Web Resources
 
-**Week:** 7 &nbsp;&nbsp; **Unit:** 3
-
-**Objective:** Learn the key concepts of **Knowledge Representation** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO3
+- https://aima.cs.berkeley.edu/
+- https://nptel.ac.in/
+- https://colab.research.google.com/
+- https://scikit-learn.org/
+- https://www.kaggle.com/
+- https://developers.google.com/machine-learning
+- https://learn.microsoft.com/ai/
+- https://openai.com/
+- https://huggingface.co/
 
 ---
 
-## Activity 22: Semantic Networks
+# 13. Academic Integrity
 
-**Week:** 8 &nbsp;&nbsp; **Unit:** 3
+Students are expected to maintain the highest standards of academic honesty.
 
-**Objective:** Learn the key concepts of **Semantic Networks** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO3
+- No plagiarism in assignments or projects.
+- AI tools may be used only where permitted by the instructor.
+- Proper citation of external resources is mandatory.
+- Individual assignments must represent original work.
+- Group projects should clearly identify individual contributions.
+- Academic misconduct will be handled according to university regulations.
 
 ---
 
-## Activity 23: Frames
+# 14. Learner Support
 
-**Week:** 8 &nbsp;&nbsp; **Unit:** 3
+The following support mechanisms will be provided:
 
-**Objective:** Learn the key concepts of **Frames** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO3
-
----
-
-## Activity 24: Ontologies
-
-**Week:** 8 &nbsp;&nbsp; **Unit:** 3
-
-**Objective:** Learn the key concepts of **Ontologies** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO3
+- Weekly doubt-clearing sessions
+- Remedial classes for slow learners
+- Advanced problem-solving sessions
+- Faculty mentoring
+- Peer-assisted learning
+- Coding practice sessions
+- AI demonstrations
+- Continuous formative feedback
 
 ---
 
-## Activity 25: Propositional Logic
+# 15. Expected Learning Outcomes
 
-**Week:** 9 &nbsp;&nbsp; **Unit:** 3
+After successful completion of this course, students will be able to:
 
-**Objective:** Learn the key concepts of **Propositional Logic** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO3
-
----
-
-## Activity 26: First Order Logic
-
-**Week:** 9 &nbsp;&nbsp; **Unit:** 3
-
-**Objective:** Learn the key concepts of **First Order Logic** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO3
+- Explain AI fundamentals and intelligent agents.
+- Apply search algorithms to solve AI problems.
+- Represent knowledge using logical techniques.
+- Perform automated reasoning and planning.
+- Explain machine learning fundamentals.
+- Analyze real-world AI applications.
+- Evaluate ethical implications of AI.
+- Develop basic AI-based solutions using Python.
 
 ---
 
-## Activity 27: Forward Chaining
+# 16. Faculty Reflection
 
-**Week:** 9 &nbsp;&nbsp; **Unit:** 3
+The instructor should review:
 
-**Objective:** Learn the key concepts of **Forward Chaining** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO3
+- Course Outcome attainment
+- Student performance trends
+- Effectiveness of activity-based learning
+- Assessment quality
+- Student feedback
+- Industry relevance
+- Emerging AI technologies to be incorporated in future offerings
 
 ---
 
-## Activity 28: Backward Chaining
+# 17. Course Conclusion
 
-**Week:** 10 &nbsp;&nbsp; **Unit:** 3
-
-**Objective:** Learn the key concepts of **Backward Chaining** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO3
-
----
-
-## Activity 29: Resolution
-
-**Week:** 10 &nbsp;&nbsp; **Unit:** 3
-
-**Objective:** Learn the key concepts of **Resolution** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO3
-
----
-
-## Activity 30: Planning
-
-**Week:** 10 &nbsp;&nbsp; **Unit:** 3
-
-**Objective:** Learn the key concepts of **Planning** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO3
-
----
-
-## Activity 31: STRIPS
-
-**Week:** 11 &nbsp;&nbsp; **Unit:** 3
-
-**Objective:** Learn the key concepts of **STRIPS** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO3
-
----
-
-## Activity 32: Probability in AI
-
-**Week:** 11 &nbsp;&nbsp; **Unit:** 3
-
-**Objective:** Learn the key concepts of **Probability in AI** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO3
-
----
-
-## Activity 33: Bayesian Networks
-
-**Week:** 11 &nbsp;&nbsp; **Unit:** 3
-
-**Objective:** Learn the key concepts of **Bayesian Networks** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO3
-
----
-
-## Activity 34: Naive Bayes
-
-**Week:** 12 &nbsp;&nbsp; **Unit:** 3
-
-**Objective:** Learn the key concepts of **Naive Bayes** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO3
-
----
-
-## Activity 35: Decision Making
-
-**Week:** 12 &nbsp;&nbsp; **Unit:** 3
-
-**Objective:** Learn the key concepts of **Decision Making** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO3
-
----
-
-## Activity 36: Machine Learning Basics
-
-**Week:** 12 &nbsp;&nbsp; **Unit:** 4
-
-**Objective:** Learn the key concepts of **Machine Learning Basics** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO4/CO5
-
----
-
-## Activity 37: Supervised Learning
-
-**Week:** 13 &nbsp;&nbsp; **Unit:** 4
-
-**Objective:** Learn the key concepts of **Supervised Learning** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO4/CO5
-
----
-
-## Activity 38: Unsupervised Learning
-
-**Week:** 13 &nbsp;&nbsp; **Unit:** 4
-
-**Objective:** Learn the key concepts of **Unsupervised Learning** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO4/CO5
-
----
-
-## Activity 39: Reinforcement Learning
-
-**Week:** 13 &nbsp;&nbsp; **Unit:** 4
-
-**Objective:** Learn the key concepts of **Reinforcement Learning** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO4/CO5
-
----
-
-## Activity 40: Neural Networks
-
-**Week:** 14 &nbsp;&nbsp; **Unit:** 4
-
-**Objective:** Learn the key concepts of **Neural Networks** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO4/CO5
-
----
-
-## Activity 41: Deep Learning Basics
-
-**Week:** 14 &nbsp;&nbsp; **Unit:** 4
-
-**Objective:** Learn the key concepts of **Deep Learning Basics** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO4/CO5
-
----
-
-## Activity 42: Explainable AI
-
-**Week:** 14 &nbsp;&nbsp; **Unit:** 4
-
-**Objective:** Learn the key concepts of **Explainable AI** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO4/CO5
-
----
-
-## Activity 43: AI Ethics
-
-**Week:** 15 &nbsp;&nbsp; **Unit:** 4
-
-**Objective:** Learn the key concepts of **AI Ethics** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO4/CO5
-
----
-
-## Activity 44: Mini Project
-
-**Week:** 15 &nbsp;&nbsp; **Unit:** 4
-
-**Objective:** Learn the key concepts of **Mini Project** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO4/CO5
-
----
-
-## Activity 45: Project Presentation & Reflection
-
-**Week:** 15 &nbsp;&nbsp; **Unit:** 4
-
-**Objective:** Learn the key concepts of **Project Presentation & Reflection** and relate them to practical AI problems.
-
-**Activity:** Faculty demonstration followed by individual or group discussion, worksheet, or a short coding/problem-solving exercise.
-
-**Resources:** Slides, Python/Google Colab, whiteboard, NPTEL videos.
-
-**Assessment:** Quiz, worksheet, observation, presentation, or coding task.
-
-**CO Mapping:** CO4/CO5
-
----
-
-# 5. Pedagogy
-Interactive lectures, demonstrations, problem-based learning, case studies, coding exercises, peer learning, quizzes, and mini-projects.
-
-# 6. Assessment Scheme
-- **CIE (50 Marks):** Quiz (10), Assignments (10), Activities (10), Mini Project (10), Internal Test (10)
-- **SEE (50 Marks)**
-
-# 7. ICT Support
-Google Colab, Python, Jupyter Notebook, scikit-learn, ChatGPT (guided), NPTEL.
-
-# 8. Academic Integrity
-Students must avoid plagiarism and follow institutional guidelines for ethical AI usage.
-
-# 9. Learner Support
-Remedial sessions, peer learning, coding practice, and faculty mentoring.
-
-# 10. Faculty Reflection
-Review course outcome attainment and improve activities based on student feedback.
+The **Principles of Artificial Intelligence** course establishes a strong foundation in intelligent systems, search techniques, knowledge representation, reasoning, machine learning fundamentals, and ethical AI. Through structured classroom activities, coding exercises, discussions, case studies, and mini-projects, students develop the knowledge and practical skills required for advanced AI, Machine Learning, Data Science, and intelligent system development.
