@@ -23,54 +23,54 @@ course_designer: "Rounak Kumar"
 This course introduces intelligent agents, search, knowledge representation, reasoning, planning, machine learning fundamentals, ethics and AI applications through activity-based learning.
 
 ## 2. Activity-Based Learning Plan (45 Activities)
-|S.No|Week|Unit|Topic|Learning Outcome|Merrill Phase|Teaching Method|Student Activity|ICT Tool|Assessment|Bloom|CO|
-|---:|---:|:---:|---|---|---|---|---|---|---|:---:|:---:|
-|1|1|I|Introduction to AI|Understand introduction to ai|Demonstration|Case Study|Worksheet|Colab|Worksheet|L2|CO1|
-|2|1|I|History of AI|Understand history of ai|Application|Discussion|Coding|Python|Coding|L2|CO1|
-|3|1|I|AI Applications|Understand ai applications|Integration|Problem Solving|Presentation|NPTEL|Observation|L2|CO1|
-|4|2|I|Intelligent Agents|Understand intelligent agents|Activation|Demo|Simulation|YouTube|Presentation|L2|CO1|
-|5|2|I|PEAS Framework|Understand peas framework|Demonstration|Flipped Class|Think-Pair-Share|Jupyter|Viva|L2|CO1|
-|6|2|I|Environment Types|Understand environment types|Application|Interactive Lecture|Brainstorming|PPT|Quiz|L2|CO1|
-|7|3|I|Problem Formulation|Understand problem formulation|Integration|Case Study|Worksheet|Colab|Worksheet|L2|CO1|
-|8|3|I|State Space|Understand state space|Activation|Discussion|Coding|Python|Coding|L2|CO1|
-|9|3|I|Breadth First Search|Understand breadth first search|Demonstration|Problem Solving|Presentation|NPTEL|Observation|L3|CO2|
-|10|4|I|Depth First Search|Understand depth first search|Application|Demo|Simulation|YouTube|Presentation|L3|CO2|
-|11|4|I|Uniform Cost Search|Understand uniform cost search|Integration|Flipped Class|Think-Pair-Share|Jupyter|Viva|L3|CO2|
-|12|4|I|Iterative Deepening|Understand iterative deepening|Activation|Interactive Lecture|Brainstorming|PPT|Quiz|L3|CO2|
-|13|5|II|Greedy Best First Search|Understand greedy best first search|Demonstration|Case Study|Worksheet|Colab|Worksheet|L3|CO2|
-|14|5|II|A* Search|Understand a* search|Application|Discussion|Coding|Python|Coding|L3|CO2|
-|15|5|II|Heuristics|Understand heuristics|Integration|Problem Solving|Presentation|NPTEL|Observation|L3|CO2|
-|16|6|II|Game Trees|Understand game trees|Activation|Demo|Simulation|YouTube|Presentation|L3|CO2|
-|17|6|II|Minimax|Understand minimax|Demonstration|Flipped Class|Think-Pair-Share|Jupyter|Viva|L3|CO2|
-|18|6|II|Alpha-Beta Pruning|Understand alpha-beta pruning|Application|Interactive Lecture|Brainstorming|PPT|Quiz|L3|CO2|
-|19|7|II|Constraint Satisfaction|Understand constraint satisfaction|Integration|Case Study|Worksheet|Colab|Worksheet|L3|CO2|
-|20|7|II|Backtracking|Understand backtracking|Activation|Discussion|Coding|Python|Coding|L3|CO2|
-|21|7|III|Knowledge Representation|Understand knowledge representation|Demonstration|Problem Solving|Presentation|NPTEL|Observation|L3|CO3|
-|22|8|III|Semantic Networks|Understand semantic networks|Application|Demo|Simulation|YouTube|Presentation|L3|CO3|
-|23|8|III|Frames|Understand frames|Integration|Flipped Class|Think-Pair-Share|Jupyter|Viva|L3|CO3|
-|24|8|III|Ontologies|Understand ontologies|Activation|Interactive Lecture|Brainstorming|PPT|Quiz|L3|CO3|
-|25|9|III|Propositional Logic|Understand propositional logic|Demonstration|Case Study|Worksheet|Colab|Worksheet|L3|CO3|
-|26|9|III|First Order Logic|Understand first order logic|Application|Discussion|Coding|Python|Coding|L3|CO3|
-|27|9|III|Forward Chaining|Understand forward chaining|Integration|Problem Solving|Presentation|NPTEL|Observation|L3|CO3|
-|28|10|III|Backward Chaining|Understand backward chaining|Activation|Demo|Simulation|YouTube|Presentation|L3|CO3|
-|29|10|III|Resolution|Understand resolution|Demonstration|Flipped Class|Think-Pair-Share|Jupyter|Viva|L3|CO3|
-|30|10|III|Planning|Understand planning|Application|Interactive Lecture|Brainstorming|PPT|Quiz|L3|CO3|
-|31|11|III|STRIPS|Understand strips|Integration|Case Study|Worksheet|Colab|Worksheet|L3|CO3|
-|32|11|III|Probability|Understand probability|Activation|Discussion|Coding|Python|Coding|L3|CO3|
-|33|11|III|Bayesian Networks|Understand bayesian networks|Demonstration|Problem Solving|Presentation|NPTEL|Observation|L3|CO3|
-|34|12|III|Naive Bayes|Understand naive bayes|Application|Demo|Simulation|YouTube|Presentation|L3|CO3|
-|35|12|III|Decision Making|Understand decision making|Integration|Flipped Class|Think-Pair-Share|Jupyter|Viva|L3|CO3|
-|36|12|IV|Machine Learning Basics|Understand machine learning basics|Activation|Interactive Lecture|Brainstorming|PPT|Quiz|L4|CO4/CO5|
-|37|13|IV|Supervised Learning|Understand supervised learning|Demonstration|Case Study|Worksheet|Colab|Worksheet|L4|CO4/CO5|
-|38|13|IV|Unsupervised Learning|Understand unsupervised learning|Application|Discussion|Coding|Python|Coding|L4|CO4/CO5|
-|39|13|IV|Reinforcement Learning|Understand reinforcement learning|Integration|Problem Solving|Presentation|NPTEL|Observation|L4|CO4/CO5|
-|40|14|IV|Neural Networks|Understand neural networks|Activation|Demo|Simulation|YouTube|Presentation|L4|CO4/CO5|
-|41|14|IV|Deep Learning|Understand deep learning|Demonstration|Flipped Class|Think-Pair-Share|Jupyter|Viva|L4|CO4/CO5|
-|42|14|IV|Explainable AI|Understand explainable ai|Application|Interactive Lecture|Brainstorming|PPT|Quiz|L4|CO4/CO5|
-|43|15|IV|AI Ethics|Understand ai ethics|Integration|Case Study|Worksheet|Colab|Worksheet|L4|CO4/CO5|
-|44|15|IV|Mini Project|Understand mini project|Activation|Discussion|Coding|Python|Coding|L4|CO4/CO5|
-|45|15|IV|Project Presentation|Understand project presentation|Demonstration|Problem Solving|Presentation|NPTEL|Observation|L4|CO4/CO5|
 
+| S.No | Week | Unit | Topic & Learning Outcome | Teaching Method | Student Activity | ICT Tool | Assessment | Bloom | CO |
+|-----:|-----:|:----:|--------------------------|-----------------|------------------|----------|------------|:-----:|:--:|
+| 1 | 1 | I | **Introduction to AI** – Explain the fundamental concepts, characteristics, and significance of Artificial Intelligence. | Case Study | Worksheet | Google Colab | Worksheet | L2 | CO1 |
+| 2 | 1 | I | **History of AI** – Describe the evolution of AI from symbolic systems to modern intelligent systems. | Discussion | Coding Exercise | Python | Coding Assessment | L2 | CO1 |
+| 3 | 1 | I | **AI Applications** – Identify AI applications in healthcare, finance, education, agriculture, and smart cities. | Problem Solving | Presentation | NPTEL | Observation | L2 | CO1 |
+| 4 | 2 | I | **Intelligent Agents** – Explain the characteristics and architecture of intelligent agents. | Demonstration | Simulation | YouTube | Presentation | L2 | CO1 |
+| 5 | 2 | I | **PEAS Framework** – Design PEAS descriptions for different intelligent agents. | Flipped Classroom | Think–Pair–Share | Jupyter Notebook | Viva | L2 | CO1 |
+| 6 | 2 | I | **Environment Types** – Differentiate fully observable, deterministic, stochastic, and dynamic environments. | Interactive Lecture | Brainstorming | PPT | Quiz | L2 | CO1 |
+| 7 | 3 | I | **Problem Formulation** – Formulate AI problems using state-space representation. | Case Study | Worksheet | Google Colab | Worksheet | L2 | CO1 |
+| 8 | 3 | I | **State Space Search** – Construct state-space models for AI search problems. | Discussion | Coding Exercise | Python | Coding Assessment | L2 | CO1 |
+| 9 | 3 | I | **Breadth First Search** – Apply BFS algorithm to solve graph search problems. | Problem Solving | Presentation | NPTEL | Observation | L3 | CO2 |
+| 10 | 4 | I | **Depth First Search** – Implement DFS algorithm and compare it with BFS. | Demonstration | Simulation | YouTube | Presentation | L3 | CO2 |
+| 11 | 4 | I | **Uniform Cost Search** – Analyze optimal path search using Uniform Cost Search. | Flipped Classroom | Think–Pair–Share | Jupyter Notebook | Viva | L3 | CO2 |
+| 12 | 4 | I | **Iterative Deepening Search** – Evaluate iterative deepening search for memory-efficient problem solving. | Interactive Lecture | Brainstorming | PPT | Quiz | L3 | CO2 |
+| 13 | 5 | II | **Greedy Best First Search** – Solve heuristic search problems using Greedy Best First Search. | Case Study | Worksheet | Google Colab | Worksheet | L3 | CO2 |
+| 14 | 5 | II | **A\* Search** – Apply A* search algorithm for optimal path finding. | Discussion | Coding Exercise | Python | Coding Assessment | L3 | CO2 |
+| 15 | 5 | II | **Heuristic Functions** – Compare heuristic evaluation functions for informed search. | Problem Solving | Presentation | NPTEL | Observation | L3 | CO2 |
+| 16 | 6 | II | **Game Trees** – Explain game tree representation in adversarial search. | Demonstration | Simulation | YouTube | Presentation | L3 | CO2 |
+| 17 | 6 | II | **Minimax Algorithm** – Apply Minimax algorithm for two-player games. | Flipped Classroom | Think–Pair–Share | Jupyter Notebook | Viva | L3 | CO2 |
+| 18 | 6 | II | **Alpha–Beta Pruning** – Optimize Minimax search using Alpha–Beta pruning. | Interactive Lecture | Brainstorming | PPT | Quiz | L3 | CO2 |
+| 19 | 7 | II | **Constraint Satisfaction Problems** – Model real-world problems as CSPs. | Case Study | Worksheet | Google Colab | Worksheet | L3 | CO2 |
+| 20 | 7 | II | **Backtracking Search** – Solve CSPs using backtracking techniques. | Discussion | Coding Exercise | Python | Coding Assessment | L3 | CO2 |
+| 21 | 7 | III | **Knowledge Representation** – Explain knowledge representation techniques in AI. | Problem Solving | Presentation | NPTEL | Observation | L3 | CO3 |
+| 22 | 8 | III | **Semantic Networks** – Construct semantic networks for knowledge representation. | Demonstration | Simulation | YouTube | Presentation | L3 | CO3 |
+| 23 | 8 | III | **Frames** – Represent structured knowledge using frames. | Flipped Classroom | Think–Pair–Share | Jupyter Notebook | Viva | L3 | CO3 |
+| 24 | 8 | III | **Ontologies** – Explain ontology-based knowledge modeling. | Interactive Lecture | Brainstorming | PPT | Quiz | L3 | CO3 |
+| 25 | 9 | III | **Propositional Logic** – Apply propositional logic to AI reasoning. | Case Study | Worksheet | Google Colab | Worksheet | L3 | CO3 |
+| 26 | 9 | III | **First Order Logic** – Represent knowledge using First Order Predicate Logic. | Discussion | Coding Exercise | Python | Coding Assessment | L3 | CO3 |
+| 27 | 9 | III | **Forward Chaining** – Perform inference using forward chaining. | Problem Solving | Presentation | NPTEL | Observation | L3 | CO3 |
+| 28 | 10 | III | **Backward Chaining** – Apply backward chaining for goal-driven reasoning. | Demonstration | Simulation | YouTube | Presentation | L3 | CO3 |
+| 29 | 10 | III | **Resolution** – Solve logical inference problems using resolution. | Flipped Classroom | Think–Pair–Share | Jupyter Notebook | Viva | L3 | CO3 |
+| 30 | 10 | III | **Planning** – Explain AI planning techniques for intelligent agents. | Interactive Lecture | Brainstorming | PPT | Quiz | L3 | CO3 |
+| 31 | 11 | III | **STRIPS Planning** – Model planning problems using STRIPS representation. | Case Study | Worksheet | Google Colab | Worksheet | L3 | CO3 |
+| 32 | 11 | III | **Probability in AI** – Explain probabilistic reasoning in AI. | Discussion | Coding Exercise | Python | Coding Assessment | L3 | CO3 |
+| 33 | 11 | III | **Bayesian Networks** – Construct Bayesian Networks for uncertainty handling. | Problem Solving | Presentation | NPTEL | Observation | L3 | CO3 |
+| 34 | 12 | III | **Naïve Bayes** – Apply Naïve Bayes classifier for classification problems. | Demonstration | Simulation | YouTube | Presentation | L3 | CO3 |
+| 35 | 12 | III | **Decision Making** – Analyze AI-based decision-making under uncertainty. | Flipped Classroom | Think–Pair–Share | Jupyter Notebook | Viva | L3 | CO3 |
+| 36 | 12 | IV | **Machine Learning Basics** – Explain the principles of supervised and unsupervised learning. | Interactive Lecture | Brainstorming | PPT | Quiz | L4 | CO4 |
+| 37 | 13 | IV | **Supervised Learning** – Differentiate regression and classification techniques. | Case Study | Worksheet | Google Colab | Worksheet | L4 | CO4 |
+| 38 | 13 | IV | **Unsupervised Learning** – Apply clustering techniques to unlabeled data. | Discussion | Coding Exercise | Python | Coding Assessment | L4 | CO4 |
+| 39 | 13 | IV | **Reinforcement Learning** – Explain reinforcement learning concepts and applications. | Problem Solving | Presentation | NPTEL | Observation | L4 | CO4 |
+| 40 | 14 | IV | **Neural Networks** – Describe the architecture and working of Artificial Neural Networks. | Demonstration | Simulation | YouTube | Presentation | L4 | CO4 |
+| 41 | 14 | IV | **Deep Learning** – Explain deep learning concepts and CNN applications. | Flipped Classroom | Think–Pair–Share | Jupyter Notebook | Viva | L4 | CO4 |
+| 42 | 14 | IV | **Explainable AI** – Discuss the need for transparency and interpretability in AI systems. | Interactive Lecture | Brainstorming | PPT | Quiz | L4 | CO5 |
+| 43 | 15 | IV | **AI Ethics** – Analyze ethical, legal, and societal issues in AI. | Case Study | Worksheet | Google Colab | Worksheet | L4 | CO5 |
+| 44 | 15 | IV | **Mini Project** – Develop a simple AI-based solution for a real-world problem. | Discussion | Coding Exercise | Python | Coding Assessment | L4 | CO5 |
+| 45 | 15 | IV | **Project Presentation** – Present and justify the developed AI solution with appropriate evaluation. | Problem Solving | Presentation | NPTEL | Observation | L4 | CO5 |
 ---
 # 3. Pedagogy
 
